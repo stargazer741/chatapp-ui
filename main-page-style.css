@@ -54,7 +54,9 @@ body {
     background-color: var(--white);
     padding: 1rem;
 
+
     width: 30vw;
+
 
     display: flex;
     /* flex-direction: column; */
