@@ -31,12 +31,10 @@
     box-sizing: border-box;
 }
 
-
 main {
     display: flex;
     width: 100%;
 }
-
 
 body {
     background-image: url("images/bg.webp");
@@ -159,7 +157,6 @@ body {
     letter-spacing: 0.1rem;    
 }
 
-
 #chat-screen {
     position: relative;
     flex-grow: 8;
@@ -243,3 +240,4 @@ body {
     outline: none;
 }
 
+/* siktim öldü */
