@@ -31,10 +31,12 @@
     box-sizing: border-box;
 }
 
+
 main {
     display: flex;
     width: 100%;
 }
+
 
 body {
     background-image: url("images/bg.webp");
@@ -54,7 +56,9 @@ body {
     background-color: var(--white);
     padding: 1rem;
 
+
     width: 30vw;
+
 
     display: flex;
     /* flex-direction: column; */
@@ -155,6 +159,7 @@ body {
     letter-spacing: 0.1rem;    
 }
 
+
 #chat-screen {
     position: relative;
     flex-grow: 8;
@@ -237,3 +242,4 @@ body {
 .msg-container #messageInput:focus {
     outline: none;
 }
+
