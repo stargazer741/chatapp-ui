@@ -21,6 +21,7 @@ function addMessage(value, right = true) {
   <tr>
     <td>
       <div class="msg ${right ? "right" : "left"}">
+        <span id="sender-name">Test</span>
         <p class="msg-text">
           ${value}
         </p>

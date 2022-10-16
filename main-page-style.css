@@ -230,6 +230,13 @@ body {
   border-radius: 1rem;
 }
 
+.msg #sender-name {
+  position: absolute;
+  top: -25px;
+  left: 0;
+  color: #fff;
+}
+
 .msg .msg-text {
   margin-bottom: 0.5rem;
   text-align: justify;
@@ -283,6 +290,30 @@ body {
   border-radius: 15px;
 }
 
+
 .msg-container #messageInput:focus {
   outline: none;
+}
+
+/* CUSTOM SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 6px;
+  background: var(--white); 
+  
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-secondary); 
+  border-radius: 6px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-primary); 
 }
